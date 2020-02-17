@@ -1,4 +1,4 @@
-require_relative "..conference_badges"
+require_relative '..conference_badges'
 require 'spec_helper'
 
 describe 'conference_badges' do
