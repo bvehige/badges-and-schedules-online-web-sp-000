@@ -7,7 +7,6 @@ end
 attendees = ["Edger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   
 def batch_badge_creator(attendees)
-  attendees.collect do 
-    badge_maker(attendees)
+  attendees.collect do
   end
 end
