@@ -5,4 +5,9 @@ def badge_maker(name)
 end
   
 def batch_badge_creator(names)
-  names.collect 
+  badge_messages = []
+  names.collect << badge_messages 
+  badge_messages.each do 
+    badge_maker
+  end
+end
