@@ -4,11 +4,10 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-:attendees) {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   
-def batch_badge_creator(names)
-  badge_messages = []
-  names.collect << badge_messages 
+def batch_badge_creator(attendees)
+  attendees.collect << badge_messages 
   badge_messages.each do 
     badge_maker
   end
