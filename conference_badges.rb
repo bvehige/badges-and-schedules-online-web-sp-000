@@ -1,6 +1,10 @@
 # Write your code here.
 
-def badge_maker(name)
+def badge_maker(speaker)
+ return "Hello, my name is #{speaker}."
+end
+
+def badge_maker2(name)
   puts "Hello, my name is #{name}."
 end
   
